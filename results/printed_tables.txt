@@ -1,0 +1,12 @@
+USD/INR spot 96.30, historical annual volatility 5.97%
+
+                                      Set-up  Peak EE (INR m)  EPE (INR m)  Peak PFE 95% (INR m)  Peak PFE 99% (INR m)  CVA (INR m)
+                  No netting, no collateral             3.23         1.14                 11.35                 15.62        0.072
+                               Netting only             2.49         1.05                 10.74                 15.32        0.066
+                 Netting + variation margin             0.46         0.09                  2.52                  4.10        0.006
+Netting + variation margin + initial margin             0.01         0.00                  0.00                  0.48        0.000
+
+Initial margin (99% ES over 2 weeks): INR 3.62 million
+FX forward only - initial margin from history: INR 3.32m, from simulation: INR 3.45m
+
+Saved exposure_report.xlsx and exposure_profile.png
